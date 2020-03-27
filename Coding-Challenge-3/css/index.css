@@ -1,84 +1,95 @@
-
-body{
-    font-size: 13px;
-    font-family: Verdana, sans-serif;
-    color: #333;
-    background-color: #12bf88;
-    margin: 0;
-    padding: 0;
+body {
+  font-size: 13px;
+  font-family: Verdana, sans-serif;
+  color: #333;
+  background-color: #12bf88;
+  margin: 0;
+  padding: 0;
 }
 
-#mainContainer{
-    width: 60%;
-    margin: 0 auto;
-    background-color: white;
+#mainContainer {
+  width: 60%;
+  margin: 0 auto;
+  background-color: white;
 }
 
-#theFizzBuzzFooter{
-    padding: 20px;
-    background-color: #32317F;
-    color: white;
-        text-align: right;
+#theFizzBuzzFooter {
+  padding: 20px;
+  background-color: #32317f;
+  color: white;
+  text-align: right;
 }
 
-#brandName{
-    top: -40px;
-    position: relative;
-    font-style: italic;
-    font-size: 30px;
+#brandName {
+  top: -40px;
+  position: relative;
+  font-style: italic;
+  font-size: 30px;
 }
 
-#fizzBuzzForm{
-    font-size: 20px;
-    font-family: Verdana, sans-serif;
-    color: #6278B0;
-        overflow: hidden;
+#fizzBuzzForm {
+  font-size: 20px;
+  font-family: Verdana, sans-serif;
+  color: #6278b0;
+  overflow: hidden;
 }
-input[type=submit]{
-    padding: 10px 20px;
-    font-size: 0.7em;
-    color: white;
-    background: #12bf88;
-    margin: 0 0 0 20px;
-    border: 0;
-    text-align: center;
-
-}
-
-#inputSection{
-    margin-top: 20px;
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 0.7em;
+  color: white;
+  background: #12bf88;
+  margin: 0 0 0 20px;
+  border: 0;
+  text-align: center;
 }
 
-label, h3{
-    margin: 15px;
+#inputSection {
+  margin-top: 20px;
 }
 
-.resultsSection{
-    margin-bottom : 50px;
-    padding: 25px 15px;
-    overflow: hidden;
+label,
+h3 {
+  margin: 15px;
+}
+
+.resultsSection {
+  margin-bottom: 50px;
+  padding: 25px 15px;
+  overflow: hidden;
 }
 
 .fizz-buzz-item {
-    display: block;
-    float: left;
-    width: 80px;
-    height: 80px;
-    text-align: center;
-    border: 1px solid grey;
-    margin-right: 5px;
-    margin-bottom: 5px;
-  }
-  
-  .fizz-buzz-item span {
-    vertical-align: middle;
-    height: 80px;
-  }
-  
-  .fizz, .fizzbuzz {
-    border: 4px solid green;
-  }
-  
-  .buzz, .fizzbuzz {
-    background-color: #D5F5E3;
-  }
+  display: block;
+  float: left;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  border: 1px solid grey;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.fizz-buzz-item span {
+  vertical-align: middle;
+  height: 80px;
+}
+
+.fizz,
+.fizzbuzz {
+  border: 4px solid green;
+}
+
+.buzz,
+.fizzbuzz {
+  background-color: #d5f5e3;
+}
+
+.list-result {
+  list-style: none;
+}
+
+.item-fizz {
+  border: 1px solid black;
+  padding: 10px;
+  width: 100px;
+}
